@@ -1,0 +1,329 @@
+
+
+/*------------- NAVBAR ------------------*/
+
+/* NAVBAR FIXED */
+body {
+  padding-top: 3.5rem;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size:0.93rem;
+  color:#000000;
+}
+html {
+  font-family: 'Nunito Sans', sans-serif;
+  color:#000000;
+}
+
+.btn {border-radius:0;
+padding:0.5em 1em 0.5em 1em;
+}
+
+.redondo {border-radius:20em;
+padding:10px 16px 10px 16px;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.yank {
+  font-family: 'Poppins', sans-serif;
+  letter-spacing:-0.5px;
+  color:#000000;
+}
+
+.text-min {
+    font-size: .64rem !important;
+}
+
+
+.navbar-toggler:focus , .navbar-toggler:active{
+    outline: none !important;
+}
+
+.form-label {
+    margin-bottom: .1rem;
+    font-size: 0.8rem;
+	 line-height: 1.4;
+    font-weight: 700;
+    color: #3c3c3c;
+}
+.form-icon-container {
+    position: relative;
+}
+.form-icon-container .form-icon-input, .form-icon-container .form-icon-label {
+    padding-left: 2.5rem;
+}
+.form-icon-container .form-icon {
+    position: absolute;
+    top: 5px;
+    left: 1rem;
+}
+
+.tdarck {
+    font-size: 1.8rem !important;
+	font-weight:600;
+}
+@media (min-width: 1200px) {
+	.tdarck {
+    font-size: 2.4rem !important;
+	font-weight:600;
+	}
+}
+
+.descript {
+    font-size: 0.8rem !important;
+}
+
+.hero-header-container {
+		padding-top: 5rem;
+		padding-bottom: 5rem;
+}
+
+
+.dropdown-toggle::after {
+    display:none;
+}
+
+.picture-out-1 {
+    position: relative;
+    display: flex;
+    height: 200px;
+    overflow: hidden;
+}
+@media (min-width: 576px) {
+	.picture-out-1 {
+    height: 349px;
+}
+}
+
+
+
+.picture-out-2 { 
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 172px;
+    overflow: hidden;
+}
+figure {
+    margin: 0;
+}
+
+.navbar-toggler {
+    padding: 0rem;
+    font-size: var(--bs-navbar-toggler-font-size);
+    line-height: 1;
+    color: var(--bs-navbar-color);
+    background-color: transparent;
+    border: 0px solid white;
+    border-radius: 0;
+    transition: var(--bs-navbar-toggler-transition);
+}
+
+/* PARA MANEJAR COLORES DE LOS LINKS Y DEL ICONO DEL MENU HAMBURGUESA */
+.nav-link{
+  color: black;
+}
+.nav-link:hover, .navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
+  color: grey;
+}
+
+
+
+.zoomer {
+            width: 300px;
+            height: 300px;
+            overflow: hidden;
+            margin: 0 auto;
+        }
+     
+        .zoomer img {
+            width: 100%;
+            transition: 0.5s all ease-in-out;
+        }
+     
+        .zoomer:hover img {
+            transform: scale(1.5);
+        }
+		
+.dropdown-toggle::after {
+    display:none;
+}
+
+
+#carouselprops .card {
+  border: none;
+  border-radius: 0;
+  box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+}
+#carouselprops .carousel-inner {
+  padding-bottom: 1em;
+}
+#carouselprops .carousel-control-prev,
+#carouselprops .carousel-control-next {
+  background-color: #284976;
+  width: 6vh;
+  height: 6vh;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+#carouselprops .carousel-control-prev span,
+#carouselprops .carousel-control-next span {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+@media screen and (min-width: 577px) {
+  #carouselprops .cards-wrapper {
+    display: flex;
+  }
+  #carouselprops .card {
+    margin: 0 0.2em;
+    width: calc(100% / 2);
+  }
+  #carouselprops .image-wrapper {
+    height: 20vw;
+    margin: 0 auto;
+	position:relative;
+  }
+}
+@media screen and (max-width: 576px) {
+  #carouselprops .card:not(:first-child) {
+    display: none;
+  }
+}
+
+#carouselprops .image-wrapper img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.stack-wish {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.item-date {
+    background-color: #5b5b5b;
+	padding: 5px 20px 5px 20px;
+	font-size:15px;
+	font-weight:900;
+}
+
+.item-wish {
+    border-radius: 20px;
+	padding: 5px 20px 5px 20px;
+	font-size:15px;
+	font-weight:900;
+}
+
+.stack-parent {
+  position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 220px;
+    overflow: hidden;
+}
+.stack-img {
+  max-width: 100%;
+  height: auto;
+}
+.stack-txt {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: white;
+    font-size: 1.4rem !important;
+}
+.stack-logo {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  color: white;
+    font-size: 1.4rem !important;
+}
+
+
+
+.footer{
+	background-color:#e6eaef;
+		padding-top: 5rem;
+		padding-bottom: 5rem;
+}
+.footer a{
+	color:#383838;
+	text-decoration:none;
+	 font-size: 0.9rem !important;
+}
+
+/******* CUSTOM FORMS ****/
+
+.form-label {
+    padding-left: .2rem;
+    line-height: 1.2;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+.form-label {
+    margin-bottom: .3rem;
+    font-size: 0.64rem;
+    font-weight: 700;
+    color: var(--phoenix-gray-700);
+}
+
+
+.form-radio {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    display: inline-block;
+    position: relative;
+    background-color: #f1f1f1; 
+    color: #666;
+    top: 0px;
+    height: 20px;
+    width: 20px;
+    border: 1px solid #aeaeae;
+    border-radius: 0px;
+    cursor: pointer;
+    outline: none;
+}
+
+.form-check-label {
+    margin-top:5px; margin-left:15px; margin-left:3px;
+}
+
+.form-check-input:checked {
+    background-color: #606060;
+    border-color: #0d6efd;
+}
+
+
+
+/*** --------IN PROFILE ------***/
+
+.profile img {
+      width: 100%; 
+	 }
+.profile .about-logo {
+      width: 100px;
+      position: absolute;
+      left: 50%;
+    transform: translate(-50%, 0);
+      bottom: -20px; 
+	  }
+@media (min-width: 768px) {
+	.profile .about-logo {
+      width: 200px;
+      position: absolute;
+      left: 50%;
+    transform: translate(-50%, 0);
+      bottom: -40px; 
+	  }
+}
+/*** --------OUT PROFILE ------***/
